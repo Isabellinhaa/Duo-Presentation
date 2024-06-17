@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    border:0;
+    max-width:100%;
+    border-spacing: 0;
+}
+
+#container{
+    max-width: 1900px;
+    height: 890px;
+    background-image: url("../../assets/background.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.example-card {
+    max-width: 380px;
+    height: 600px;
+    border: 1px solid #004aad;
+    align-items: center;
+    position: relative;
+}
+
+.example-card, .infos{
+    width: 380px;
+    height: 650px;
+    margin-right: 4px;
+    border: 1px solid #004aad;
+    align-items: center;
+    position: relative;
+}
+
+.element-back{
+    background-color: #004aad;
+    width: 360px;
+    height: 150px;
+    position: relative;
+}
+
+.image-duo{
+    width: 260px; 
+    height: 260px; 
+    border-radius: 5%;
+    object-fit: cover; 
+    margin-top: 20px;
+    position: absolute;
+}
+
+.elements-container{
+    text-align: center;
+    align-items: center;
+}
+
+.name-title{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 140px; 
+}
+
+.example-image-git{
+    background-image: url('../../assets/icon_git.jpg');
+    background-size: cover;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.example-image-study{
+    background-image: url('../../assets/icon_study.png');
+    background-size: cover;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.example-image-local{
+    background-image: url('../../assets/icon_local.png');
+    background-size: cover;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.example-image-contact{
+    background-image: url('../../assets/icon_contact.png');
+    background-size: cover;
+    margin: 0;
+    margin-right: 20px;
+}
+
+.icons-container{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.topic-text{
+    font-size: large;
+}
+
+.about-me{
+    margin-top: 20px;
+    background-color: #004aad;
+    justify-content: center;
+    color: aliceblue;
+    font-size: x-large;
+    width: 140px;
+    display: inline-flex;
+}
+
+.icons{
+    margin-top: 10px;
+}
+
+.title-icons{
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 25px; 
+}
+
+.social-links{
+    margin-top: 10px;
+}
+
+.medias{
+    margin-right: 10px;
+}
+
+.router{
+    background-color: #004aad;
+    color: aliceblue;
+    margin-top: 15px;
+}
+
+.presentation{
+    margin: 10px;
+    font-size: large;
+}
