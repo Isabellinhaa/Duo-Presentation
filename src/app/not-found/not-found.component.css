@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  max-width: 100%;
+  border-spacing: 0;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+
+p {
+  font-weight: 900;
+  font-size: xx-large;
+  margin-bottom: 20px;
+}
+
+.router {
+  background-color: #004aad;
+  color: aliceblue;
+}
+
+a:visited {
+  color: aliceblue;
+}
+

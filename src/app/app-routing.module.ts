@@ -1,3 +1,4 @@
+import { NotFoundComponent } from './not-found/not-found.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { InitialScreenComponent } from './initial-screen/initial-screen.component';
@@ -7,7 +8,8 @@ import { IsabellaScreenComponent } from './isabella-screen/isabella-screen.compo
 const routes: Routes = [
   {path: '', component: InitialScreenComponent},
   {path: 'anderson-screen', component: AndersonScreenComponent},
-  {path: 'isabella-screen', component: IsabellaScreenComponent}
+  {path: 'isabella-screen', component: IsabellaScreenComponent},
+  {path: '**', component: NotFoundComponent}
 
 ];
 

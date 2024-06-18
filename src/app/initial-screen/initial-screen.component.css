@@ -5,6 +5,7 @@
     border:0;
     max-width:100%;
     border-spacing: 0;
+    text-decoration: none;
 }
 
 #container{
@@ -34,10 +35,10 @@
 }
 
 .image-duo{
-    width: 260px; 
-    height: 260px; 
+    width: 260px;
+    height: 260px;
     border-radius: 5%;
-    object-fit: cover; 
+    object-fit: cover;
     margin-top: 20px;
     position: absolute;
 }
@@ -50,7 +51,7 @@
 .name-title{
     font-weight: bold;
     font-size: xx-large;
-    margin-top: 140px; 
+    margin-top: 140px;
 }
 
 .example-image-git{
@@ -89,6 +90,9 @@
     font-size: large;
 }
 
+a:visited{
+  color: #004aad;
+}
 
 
 

@@ -8,13 +8,15 @@ import { AndersonScreenComponent } from './anderson-screen/anderson-screen.compo
 import { IsabellaScreenComponent } from './isabella-screen/isabella-screen.component';
 import {MatButtonModule} from '@angular/material/button';
 import {MatCardModule} from '@angular/material/card';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InitialScreenComponent,
     AndersonScreenComponent,
-    IsabellaScreenComponent
+    IsabellaScreenComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
