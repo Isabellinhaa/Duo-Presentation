@@ -1,6 +1,8 @@
 # DuoPresentation
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.3.
+Este projeto foi realizado durante o curso na Etec Horácio Augusto da Silveira. O objetivo é permitir apresentações dinâmicas, feitas por mim e meu colega, onde cada um apresenta suas partes de forma interativa.
+
+Este projeto foi gerado com Angular CLI versão 16.1.3.
 
 ## Development server
 
